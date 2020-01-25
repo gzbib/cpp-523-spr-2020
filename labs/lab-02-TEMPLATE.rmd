@@ -263,7 +263,7 @@ The covariance of class size and test scores is `r round(cov(dat$csize,dat$test)
 cov (x,y)/var(x)= -418/99 =-4.22
 
 
-
+I cannot calculate the slope of class size in Model 4 since the covariance given includes class size and test scores excluding the socio economic status.
 
 
 
