@@ -133,8 +133,8 @@ The result is significant at p < 0.05.
 
 ```{r}
 # add appropriate values for b1 and se from the regression table
-b1 <- -3
-se <- 0.25
+b1 <- 738.3366
+se <- 4.8788
 
 # no need to change anything below
   
