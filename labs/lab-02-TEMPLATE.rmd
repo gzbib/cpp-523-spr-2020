@@ -124,7 +124,7 @@ Upper confidence interval: -4.2221+ (1.96*0.1761)= -3.876
 Lower confidence interval: -4.2221- (1.96*0.1761)= -4.567
 
 
-The p-value is < 0.00001 (from F statistic)
+The p-value is < 0.00001 (from T statistic)
 The result is significant at p < 0.05.
 
 
@@ -210,7 +210,9 @@ Calculate the 95% confidence interval around the class size coefficient in Model
 Upper Confidence Interval:-2.671 + 1.96*1.632 = -0.0838
 Lower Confidence Interval: -2.671 - 1.96*1.632= -5.86972
 
+The p-value is 0.1019.
 
+The result is not significant at p < 0.05.
 
 **Visual**
 
@@ -247,7 +249,7 @@ Draw the three confidence intervals to see how they change (you can do this in a
 You can reference the above graphics or re-create them here. 
 
 
-
+The confidence intervals changed from M1 to M4, where they increased allowing the shape of intervals to be wider.
 
 
 
