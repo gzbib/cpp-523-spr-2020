@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo=F, fig.width=6, fig.height=4, warning=F, message=F )
 
 **CPP 523**
 
-**YOUR NAME**
+**Ghida Zbib**
 
 ---------------
  
@@ -94,7 +94,9 @@ stargazer( m1, m2, m3, m4, m5,
 **Answer**: 
 
 
+As plotted, the slope is increasing in Model 01. As the class size increases, the test scores increase. This means, we have a positivie correlation in this model between test scores and class size. 
 
+In this context, a slope with a negative coefficient (-4.22) means there is an inverse relationship between the tested variables. The negative sign is a good thing since when the value of the class size is negative, it is multiplied by a negative coefficent and thus get a positive slope.
 
 
 
@@ -107,8 +109,7 @@ What is the standard error associated with the slope on class size in Model 1?
 
 
 
-
-
+The standard error associated with the slope is 0.1761.
 
 
 ### Q (2)	
@@ -118,6 +119,13 @@ Calculate the 95% confidence interval around the class size coefficient in Model
 **Answer**
 
 
+Upper confidence interval: -4.2221+ (1.96*0.1761)= -3.876
+
+Lower confidence interval: -4.2221- (1.96*0.1761)= -4.567
+
+
+The p-value is < 0.00001.
+The result is significant at p < 0.05.
 
 
 
@@ -125,8 +133,8 @@ Calculate the 95% confidence interval around the class size coefficient in Model
 
 ```{r}
 # add appropriate values for b1 and se from the regression table
-b1 <- 
-se <- 
+b1 <- -3
+se <- 0.25
 
 # no need to change anything below
   
@@ -158,12 +166,19 @@ Calculate the 95% confidence interval around the class size coefficient in Model
 
 **Answer**
 
+Upper Confidence interval: -3.910 + 1.96*0.02541 = -3.8601 
+
+Lower Confidence interval: -3.910 - 1.96* 0.02541 = -3.9598
+
+
+
 
 **Visual**
 
 ```{r}
-b1 <- 
-se <- 
+b1 <- 456.699
+se <- 456.699
+
 upper.ci <- b1 + 1.96*se 
 lower.ci <- b1 - 1.96*se
 plot( c(lower.ci,upper.ci), c(1,1), 
@@ -192,12 +207,16 @@ Calculate the 95% confidence interval around the class size coefficient in Model
 
 **Answer**
 
+Upper Confidence Interval:-2.671 + 1.96*1.632 = -0.0838
+Lower Confidence Interval: -2.671 - 1.96*1.632= -5.86972
+
+
 
 **Visual**
 
 ```{r}
-b1 <- 
-se <- 
+b1 <- 665.289
+se <- 76.574
 upper.ci <- b1 + 1.96*se 
 lower.ci <- b1 - 1.96*se
 plot( c(lower.ci,upper.ci), c(1,1), 
@@ -241,7 +260,7 @@ The covariance of class size and test scores is `r round(cov(dat$csize,dat$test)
 **Answer**
 
 
-
+cov (x,y)/var(x)= -418/99 =-4.22
 
 
 
