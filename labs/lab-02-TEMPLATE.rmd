@@ -124,7 +124,7 @@ Upper confidence interval: -4.2221+ (1.96*0.1761)= -3.876
 Lower confidence interval: -4.2221- (1.96*0.1761)= -4.567
 
 
-The p-value is < 0.00001.
+The p-value is < 0.00001 (from F statistic)
 The result is significant at p < 0.05.
 
 
@@ -170,7 +170,7 @@ Upper Confidence interval: -3.910 + 1.96*0.02541 = -3.8601
 
 Lower Confidence interval: -3.910 - 1.96* 0.02541 = -3.9598
 
-
+The result is significant at p < 0.05.
 
 
 **Visual**
